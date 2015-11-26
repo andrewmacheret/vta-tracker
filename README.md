@@ -12,6 +12,7 @@ Prereqs:
 
 Installation steps:
 * `git clone <clone url>`
+* Modify the top of `index.js` to change `url` and `interval` as needed.
 
 Test it:
 * Open `index.html` in a browser.

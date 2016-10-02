@@ -1,4 +1,4 @@
-var url = 'http://vta.andrewmacheret.com/find_routes';
+var url = 'http://andrewmacheret.com/servers/vta/find_routes';
 var interval = 10000;
 
 
@@ -19,7 +19,7 @@ $(function() {
       type: 'get',
       dataType: 'json',
       url: url,
-      crossDomain: true,
+      //crossDomain: true,
       success: function(data, textStatus, jqXHR) {
         if (!data || !data.success) {
           //onError(jqXHR, textStatus, JSON.stringify(data, 0, 4));

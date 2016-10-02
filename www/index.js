@@ -1,4 +1,4 @@
-var url = 'https://andrewmacheret.com/servers/vta/find_routes';
+var url = '//andrewmacheret.com/servers/vta/find_routes';
 var interval = 10000;
 
 

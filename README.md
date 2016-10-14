@@ -1,10 +1,12 @@
 # vta-tracker
 
-![Bus image](bus.png?raw=true "Bus image")
+[![Build Status](https://travis-ci.org/andrewmacheret/vta-tracker.svg?branch=master)](https://travis-ci.org/andrewmacheret/vta-tracker) [![License](https://img.shields.io/badge/license-MIT-lightgray.svg)](https://github.com/andrewmacheret/vta-tracker/blob/master/LICENSE.md)
 
 Track VTA buses using [andrewmacheret/vta-tracker-server](https://github.com/andrewmacheret/vta-tracker-server), [Google Maps API](https://developers.google.com/maps/), and [jQuery](https://jquery.com/).
 
-See it running at [http://andrewmacheret.com/projects/vta-tracker](http://andrewmacheret.com/projects/vta-tracker).
+See it running at [https://andrewmacheret.com/projects/vta-tracker](https://andrewmacheret.com/projects/vta-tracker).
+
+![Bus image](www/bus.png?raw=true "Bus image")
 
 Prereqs:
 * [andrewmacheret/vta-tracker-server](https://github.com/andrewmacheret/vta-tracker-server)

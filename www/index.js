@@ -1,4 +1,4 @@
-var url = '//vta-tracker.andrewmacheret.com/find_routes';
+var url = 'http://vta-tracker.andrewmacheret.com:9080';
 var interval = 10000;
 
 

@@ -1,4 +1,4 @@
-var url = 'https://vta-tracker.andrewmacheret.com:9443';
+var apiUrl = 'https://vta-tracker.andrewmacheret.com:9443';
 var interval = 10000;
 
 
@@ -18,7 +18,7 @@ $(function() {
     $.ajax({
       type: 'get',
       dataType: 'json',
-      url: url,
+      url: apiUrl + '/find_routes',
       //crossDomain: true,
       success: function(data, textStatus, jqXHR) {
         if (!data || !data.success) {

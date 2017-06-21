@@ -1,4 +1,4 @@
-var url = 'http://vta-tracker.andrewmacheret.com:9080';
+var url = 'https://vta-tracker.andrewmacheret.com:9443';
 var interval = 10000;
 
 
